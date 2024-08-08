@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.box.green {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.box.purple {
+  background-color: purple;
+  height: 200px;
+  width: 200px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+.box.red {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#shape {
+  padding: 20px 100px 0px 100px;
+  background-color: teal;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 1px solid teal;
+  border-radius: 20px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#demo {
+  padding: 50px 300px;
+}
+
+.demo-second {
+  border: 1px solid teal;
+  border-radius: 8px;
+  display: flex;
+  padding: 20px 40px;
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
+}
+
+.img-container > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
